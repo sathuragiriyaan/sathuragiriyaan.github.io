@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sathuragiriyaan DevOps</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+
+
+    <div class="bg-img1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-10" style="background-image: url('images/bg01.jpg');">
+        <div class="wsize1 bor1 bg1 p-t-175 p-b-45 p-l-15 p-r-15 respon1" style="padding-top: 70px;">
+            <div class="wrappic1">
+                <img alt="Untitled.png" style="height: 83px;" src="data:image/png;base64,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"/>
+
+                <h1>Sathuragiriyaan DevOps</h1>
+            </div>
+
+            <p class="txt-center m1-txt1 p-t-33 p-b-68">
+                Our website is under construction
+            </p>
+
+            <div class="wsize2 flex-w flex-c hsize1 cd100">
+                <div class="flex-col-c-m size2 how-countdown">
+                    <span class="l1-txt1 p-b-9 days">35</span>
+                    <span class="s1-txt1">Days</span>
+                </div>
+
+                <div class="flex-col-c-m size2 how-countdown">
+                    <span class="l1-txt1 p-b-9 hours">17</span>
+                    <span class="s1-txt1">Hours</span>
+                </div>
+
+                <div class="flex-col-c-m size2 how-countdown">
+                    <span class="l1-txt1 p-b-9 minutes">50</span>
+                    <span class="s1-txt1">Minutes</span>
+                </div>
+
+                <div class="flex-col-c-m size2 how-countdown">
+                    <span class="l1-txt1 p-b-9 seconds">39</span>
+                    <span class="s1-txt1">Seconds</span>
+                </div>
+            </div>
+
+            <form class="flex-w flex-c-m contact100-form validate-form p-t-55">
+                <div class="wrap-input100 validate-input where1" data-validate="Email is required: ex@abc.xyz">
+                    <input class="s1-txt2 placeholder0 input100" type="text" name="email" placeholder="Your Email">
+                    <span class="focus-input100"></span>
+                </div>
+
+
+                <button class="flex-c-m s1-txt3 size3 how-btn trans-04 where1">
+                    Get Notified
+                </button>
+
+            </form>
+
+            <p class="s1-txt4 txt-center p-t-10">
+                I promise to <span class="bor2">never</span> spam
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/moment.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script>
+        $('.cd100').countdown100({
+            /*Set Endtime here*/
+            /*Endtime must be > current time*/
+            endtimeYear: 0,
+            endtimeMonth: 0,
+            endtimeDate: 35,
+            endtimeHours: 18,
+            endtimeMinutes: 0,
+            endtimeSeconds: 0,
+            timeZone: ""
+            // ex:  timeZone: "America/New_York"
+            //go to " http://momentjs.com/timezone/ " to get timezone
+        });
+
+    </script>
+    <!--===============================================================================================-->
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+
+    </script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
